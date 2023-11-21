@@ -1,0 +1,454 @@
+{
+   "Global settings" :
+   {
+       "seed"               :   1,
+       "simulation_speed"   :   2.0
+   },
+   "Initial positions" : 
+   [
+        {
+            "id"        : "AFT-28-01",
+            "location"  : "Charge1-CM"
+        },
+        {
+            "id"        : "AFT-28-02",
+            "location"  : "Park2-PartsC"
+        },
+        {
+            "id"        : "AFT-46-01",
+            "location"  : "Park3-PartsC"
+        },
+        {
+            "id"        : "AFT-46-02",
+            "location"  : "Park4-CM"
+        }
+    ],
+   "Backlog" : 
+   [
+        {
+            "quantity"              : 1,
+            "action"                : "Create ANT Mission",
+            "mission"               :
+            {
+                "description"           : "Backlog CN080-Panel to PartsC-Panel",
+                "type"                  : "transport from station to station",
+                "from"                  : ["CN080-Panel-1","CN080-Panel-2"],
+                "to"                    : ["PartsC-Panel"],
+                "payload"               : "Payload-46",
+                "priority"              : "Medium"
+            }
+        },
+        {
+            "quantity"              : 1,
+            "action"                : "Create ANT Mission",
+            "mission"               :
+            {
+                "description"           : "Backlog PartsC-Panel to CN080-Panel",
+                "type"                  : "transport from station to station",
+                "from"                  : ["PartsC-Panel"],
+                "to"                    : ["CN080-Panel-1","CN080-Panel-2"],
+                "payload"               : "Payload-46",
+                "priority"              : "Medium"
+            }
+        },
+        {
+            "quantity"              : 1,
+            "action"                : "Create ANT Mission",
+            "mission"               :
+            {
+                "description"           : "Backlog CN040-UB5 to PartsC-UB5",
+                "type"                  : "transport from station to station",
+                "from"                  : ["CN040-UB5-1","CN040-UB5-2"],
+                "to"                    : ["PartsC-UB5"],
+                "payload"               : "Basket-28",
+                "priority"              : "Medium"
+            }
+        },
+        {
+            "quantity"              : 1,
+            "action"                : "Create ANT Mission",
+            "mission"               :
+            {
+                "description"           : "Backlog PartsC-UB5 to CN040-UB5",
+                "type"                  : "transport from station to station",
+                "from"                  : ["PartsC-UB5"],
+                "to"                    : ["CN040-UB5-1","CN040-UB5-2"],
+                "payload"               : "Basket-28",
+                "priority"              : "Medium"
+            }
+        },
+        {
+            "quantity"              : 1,
+            "action"                : "Create ANT Mission",
+            "mission"               :
+            {
+                "description"           : "Backlog PartsC-Exten to CM065-Exten",
+                "type"                  : "transport from station to station",
+                "from"                  : ["PartsC-Exten"],
+                "to"                    : ["CM065-Exten"],
+                "payload"               : "Payload-46",
+                "priority"              : "Medium"
+            }
+        },
+        {
+            "quantity"              : 1,
+            "action"                : "Create ANT Mission",
+            "mission"               :
+            {
+                "description"           : "Backlog CM065-Exten to PartsC-Exten",
+                "type"                  : "transport from station to station",
+                "from"                  : ["CM065-Exten"],
+                "to"                    : ["PartsC-Exten"],
+                "payload"               : "Payload-46",
+                "priority"              : "Medium"
+            }
+        },
+        {
+            "quantity"              : 1,
+            "action"                : "Create ANT Mission",
+            "mission"               :
+            {
+                "description"           : "Backlog PartsC-Bar to CM040-Bar",
+                "type"                  : "transport from station to station",
+                "from"                  : ["PartsC-Bar"],
+                "to"                    : ["CM040-Bar"],
+                "payload"               : "Payload-46",
+                "priority"              : "Medium"
+            }
+        },
+        {
+            "quantity"              : 1,
+            "action"                : "Create ANT Mission",
+            "mission"               :
+            {
+                "description"           : "Backlog CM040-Bar to PartsC-Bar",
+                "type"                  : "transport from station to station",
+                "from"                  : ["CM040-Bar"],
+                "to"                    : ["PartsC-Bar"],
+                "payload"               : "Payload-46",
+                "priority"              : "Medium"
+            }
+        },
+        {
+            "quantity"              : 1,
+            "action"                : "Create ANT Mission",
+            "mission"               :
+            {
+                "description"           : "Backlog PartsC-Rail-RH to CM040-Rail-RH",
+                "type"                  : "transport from station to station",
+                "from"                  : ["PartsC-Rail-RH"],
+                "to"                    : ["CM040-Rail-RH"],
+                "payload"               : "Payload-46",
+                "priority"              : "Medium"
+            }
+        },
+        {
+            "quantity"              : 1,
+            "action"                : "Create ANT Mission",
+            "mission"               :
+            {
+                "description"           : "Backlog CM040-Rail-RH to PartsC-Rail-RH",
+                "type"                  : "transport from station to station",
+                "from"                  : ["CM040-Rail-RH"],
+                "to"                    : ["PartsC-Rail-RH"],
+                "payload"               : "Payload-46",
+                "priority"              : "Medium"
+            }
+        },
+        {
+            "quantity"              : 1,
+            "action"                : "Create ANT Mission",
+            "mission"               :
+            {
+                "description"           : "Backlog PartsC-Rail-LH to CM040-Rail-LH",
+                "type"                  : "transport from station to station",
+                "from"                  : ["PartsC-Rail-LH"],
+                "to"                    : ["CM040-Rail-LH"],
+                "payload"               : "Payload-46",
+                "priority"              : "Medium"
+            }
+        },
+        {
+            "quantity"              : 1,
+            "action"                : "Create ANT Mission",
+            "mission"               :
+            {
+                "description"           : "Backlog CM040-Rail-LH to PartsC-Rail-LH",
+                "type"                  : "transport from station to station",
+                "from"                  : ["CM040-Rail-LH"],
+                "to"                    : ["PartsC-Rail-LH"],
+                "payload"               : "Payload-46",
+                "priority"              : "Medium"
+            }
+        },
+        {
+            "quantity"              : 1,
+            "action"                : "Create ANT Mission",
+            "mission"               :
+            {
+                "description"           : "Backlog PartsC-UB6 to CN040-UB6",
+                "type"                  : "transport from station to station",
+                "from"                  : ["PartsC-UB6"],
+                "to"                    : ["CN040-UB6-1","CN040-UB6-2"],
+                "payload"               : "Basket-28",
+                "priority"              : "Medium"
+            }
+        },
+        {
+            "quantity"              : 1,
+            "action"                : "Create ANT Mission",
+            "mission"               :
+            {
+                "description"           : "Backlog CN040-UB6 to PartsC-UB6",
+                "type"                  : "transport from station to station",
+                "from"                  : ["CN040-UB6-1","CN040-UB6-2"],
+                "to"                    : ["PartsC-UB6"],
+                "payload"               : "Basket-28",
+                "priority"              : "Medium"
+            }
+        }
+   ],
+   "Triggers" : 
+   [
+        {
+            "period"                : [ "00:00:00", "01:00:00" ],
+            "flow per hour"         : 1,
+            "variation %"           : 0.0,
+            "action"                : "Create ANT Mission",
+            "mission"               :
+            {
+                "description"           : "Trigger Transport CN080 to PartsC-Panel",
+                "type"                  : "transport from station to station",
+                "from"                  : ["CN080-Panel-1","CN080-Panel-2"],
+                "to"                    : ["PartsC-Panel"],
+                "payload"               : "Payload-46",
+                "priority"              : "Medium"
+            }
+        },
+        {
+            "period"                : [ "00:00:00", "01:00:00" ],
+            "flow per hour"         : 1,
+            "variation %"           : 0.0,
+            "action"                : "Create ANT Mission",
+            "mission"               :
+            {
+                "description"           : "Trigger PartsCPanel to CN080",
+                "type"                  : "transport from station to station",
+                "from"                  : ["PartsC-Panel"],
+                "to"                    : ["CN080-Panel-1","CN080-Panel-2"],
+                "payload"               : "Payload-46",
+                "priority"              : "Medium"
+            }
+        },
+        {
+            "period"                : [ "00:00:00", "01:00:00" ],
+            "flow per hour"         : 1,
+            "variation %"           : 0.0,
+            "action"                : "Create ANT Mission",
+            "mission"               :
+            {
+                "description"           : "Trigger Transport CN040-UB6 to PartsC-UB6",
+                "type"                  : "transport from station to station",
+                "from"                  : ["CN040-UB6-1","CN040-UB6-2"],
+                "to"                    : ["PartsC-UB6"],
+                "payload"               : "Basket-28",
+                "priority"              : "Medium"
+            }
+        },
+        {
+            "period"                : [ "00:00:00", "01:00:00" ],
+            "flow per hour"         : 2,
+            "variation %"           : 0.0,
+            "action"                : "Create ANT Mission",
+            "mission"               :
+            {
+                "description"           : "Trigger PartsC-UB6 to CN040-UB6",
+                "type"                  : "transport from station to station",
+                "from"                  : ["PartsC-UB6"],
+                "to"                    : ["CN040-UB6-1","CN040-UB6-2"],
+                "payload"               : "Basket-28",
+                "priority"              : "Medium"
+            }
+        },
+        {
+            "period"                : [ "00:00:00", "01:00:00" ],
+            "flow per hour"         : 2,
+            "variation %"           : 0.0,
+            "action"                : "Create ANT Mission",
+            "mission"               :
+            {
+                "description"           : "Trigger Transport CN040-UB5 to PartsC-UB5",
+                "type"                  : "transport from station to station",
+                "from"                  : ["CN040-UB5-1","CN040-UB5-2"],
+                "to"                    : ["PartsC-UB5"],
+                "payload"               : "Basket-28",
+                "priority"              : "Medium"
+            }
+        },
+        {
+            "period"                : [ "00:00:00", "01:00:00" ],
+            "flow per hour"         : 2,
+            "variation %"           : 0.0,
+            "action"                : "Create ANT Mission",
+            "mission"               :
+            {
+                "description"           : "Trigger PartsC-UB5 to CN040-UB5",
+                "type"                  : "transport from station to station",
+                "from"                  : ["PartsC-UB5"],
+                "to"                    : ["CN040-UB5-1","CN040-UB5-2"],
+                "payload"               : "Basket-28",
+                "priority"              : "Medium"
+            }
+        },
+        {
+            "period"                : [ "00:00:00", "01:00:00" ],
+            "flow per hour"         : 1,
+            "variation %"           : 0.0,
+            "action"                : "Create ANT Mission",
+            "mission"               :
+            {
+                "description"           : "Trigger Transport CN040-UB4 to PartsC-UB4",
+                "type"                  : "transport from station to station",
+                "from"                  : ["CN040-UB4"],
+                "to"                    : ["PartsC-UB4"],
+                "payload"               : "Payload-46",
+                "priority"              : "Medium"
+            }
+        },
+        {
+            "period"                : [ "00:00:00", "01:00:00" ],
+            "flow per hour"         : 1,
+            "variation %"           : 0.0,
+            "action"                : "Create ANT Mission",
+            "mission"               :
+            {
+                "description"           : "Trigger PartsC-UB4 to CN040-UB4",
+                "type"                  : "transport from station to station",
+                "from"                  : ["PartsC-UB4"],
+                "to"                    : ["CN040-UB4"],
+                "payload"               : "Payload-46",
+                "priority"              : "Medium"
+            }
+        },
+        {
+            "period"                : [ "00:00:00", "01:00:00" ],
+            "flow per hour"         : 1,
+            "variation %"           : 0.0,
+            "action"                : "Create ANT Mission",
+            "mission"               :
+            {
+                "description"           : "Trigger Transport CM065-Exten to PartsC-Exten",
+                "type"                  : "transport from station to station",
+                "from"                  : ["CM065-Exten"],
+                "to"                    : ["PartsC-Exten"],
+                "payload"               : "Payload-46",
+                "priority"              : "Medium"
+            }
+        },
+        {
+            "period"                : [ "00:00:00", "01:00:00" ],
+            "flow per hour"         : 1,
+            "variation %"           : 0.0,
+            "action"                : "Create ANT Mission",
+            "mission"               :
+            {
+                "description"           : "Trigger Transport PartsC-Exten to CM065-Exten",
+                "type"                  : "transport from station to station",
+                "from"                  : ["PartsC-Exten"],
+                "to"                    : ["CM065-Exten"],
+                "payload"               : "Payload-46",
+                "priority"              : "Medium"
+            }
+        },
+        {
+            "period"                : [ "00:00:00", "01:00:00" ],
+            "flow per hour"         : 1,
+            "variation %"           : 0.0,
+            "action"                : "Create ANT Mission",
+            "mission"               :
+            {
+                "description"           : "Trigger Transport CM040-Bar to PartsC-Bar",
+                "type"                  : "transport from station to station",
+                "from"                  : ["CM040-Bar"],
+                "to"                    : ["PartsC-Bar"],
+                "payload"               : "Payload-46",
+                "priority"              : "Medium"
+            }
+        },
+        {
+            "period"                : [ "00:00:00", "01:00:00" ],
+            "flow per hour"         : 1,
+            "variation %"           : 0.0,
+            "action"                : "Create ANT Mission",
+            "mission"               :
+            {
+                "description"           : "Trigger PartsC-Bar to CM040-Bar",
+                "type"                  : "transport from station to station",
+                "from"                  : ["PartsC-Bar"],
+                "to"                    : ["CM040-Bar"],
+                "payload"               : "Payload-46",
+                "priority"              : "Medium"
+            }
+        },
+        {
+            "period"                : [ "00:00:00", "01:00:00" ],
+            "flow per hour"         : 1,
+            "variation %"           : 0.0,
+            "action"                : "Create ANT Mission",
+            "mission"               :
+            {
+                "description"           : "Trigger Transport CM040-Rail-RH to PartsC-Rail-RH",
+                "type"                  : "transport from station to station",
+                "from"                  : ["CM040-Rail-RH"],
+                "to"                    : ["PartsC-Rail-RH"],
+                "payload"               : "Payload-46",
+                "priority"              : "Medium"
+            }
+        },
+        {
+            "period"                : [ "00:00:00", "01:00:00" ],
+            "flow per hour"         : 1,
+            "variation %"           : 0.0,
+            "action"                : "Create ANT Mission",
+            "mission"               :
+            {
+                "description"           : "Trigger PartsC-Rail-RH to CM040-Rail-RH",
+                "type"                  : "transport from station to station",
+                "from"                  : ["PartsC-Rail-RH"],
+                "to"                    : ["CM040-Rail-RH"],
+                "payload"               : "Payload-46",
+                "priority"              : "Medium"
+            }
+        },
+        {
+            "period"                : [ "00:00:00", "01:00:00" ],
+            "flow per hour"         : 1,
+            "variation %"           : 0.0,
+            "action"                : "Create ANT Mission",
+            "mission"               :
+            {
+                "description"           : "Trigger Transport CM040-Rail-LH to PartsC-Rail-LH",
+                "type"                  : "transport from station to station",
+                "from"                  : ["CM040-Rail-LH"],
+                "to"                    : ["PartsC-Rail-LH"],
+                "payload"               : "Payload-46",
+                "priority"              : "Medium"
+            }
+        },
+        {
+            "period"                : [ "00:00:00", "01:00:00" ],
+            "flow per hour"         : 1,
+            "variation %"           : 0.0,
+            "action"                : "Create ANT Mission",
+            "mission"               :
+            {
+                "description"           : "Trigger Transport PartsC-Rail-LH to CM040-Rail-LH",
+                "type"                  : "transport from station to station",
+                "from"                  : ["PartsC-Rail-LH"],
+                "to"                    : ["CM040-Rail-LH"],
+                "payload"               : "Payload-46",
+                "priority"              : "Medium"
+            }
+        }
+    ]
+}

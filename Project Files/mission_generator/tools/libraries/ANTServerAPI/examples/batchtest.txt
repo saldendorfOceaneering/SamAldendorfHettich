@@ -1,0 +1,4 @@
+@ECHO OFF
+python3 CreateNodeToNodeMission.py station1 pickup  station2 dropoffhigh
+python3 CreateNodeToNodeMission.py station3 pickup  station1 dropoff
+python3 CreateNodeToNodeMission.py station2 pickuphigh  station3 dropoff

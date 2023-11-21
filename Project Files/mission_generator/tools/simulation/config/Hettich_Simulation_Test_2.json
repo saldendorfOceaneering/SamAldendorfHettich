@@ -1,0 +1,106 @@
+{
+    "Global settings": {
+        "seed": 1,
+        "simulation_speed": 2.0
+    },
+    "Initial positions": [
+        {
+            "id": "F2",
+            "location": "P01"
+        },
+        {
+            "id": "F4",
+            "location": "P02"
+        },
+        {
+            "id": "F6",
+            "location": "P03"
+        },
+        {
+            "id": "F8",
+            "location": "P04"
+        }
+    ],
+    "Triggers": [
+        {
+            "period": [
+                "00:00:00",
+                "01:00:00"
+            ],
+            "flow per hour": 1,
+            "action": "Create ANT Mission",
+            "mission": {
+                "description": "KPA201 to M2015C8",
+                "type": "transport from station to station",
+                "from": [
+                    "KPA201"
+                ],
+                "to": [
+                    "M2015C8"
+                ],
+                "payload": "Default Payload",
+                "priority": "medium"
+            }
+        },
+        {
+            "period": [
+                "00:00:00",
+                "01:00:00"
+            ],
+            "flow per hour": 1,
+            "action": "Create ANT Mission",
+            "mission": {
+                "description": "M2015C9 to IPA0202",
+                "type": "transport from station to station",
+                "from": [
+                    "M2015C9"
+                ],
+                "to": [
+                    "IPA0202"
+                ],
+                "payload": "Default Payload",
+                "priority": "medium"
+            }
+        },
+        {
+            "period": [
+                "00:00:00",
+                "01:00:00"
+            ],
+            "flow per hour": 1,
+            "action": "Create ANT Mission",
+            "mission": {
+                "description": "M1055B2 to IPA0202",
+                "type": "transport from station to station",
+                "from": [
+                    "M1055B2"
+                ],
+                "to": [
+                    "IPA0202"
+                ],
+                "payload": "Default Payload",
+                "priority": "medium"
+            }
+        },
+        {
+            "period": [
+                "00:00:00",
+                "01:00:00"
+            ],
+            "flow per hour": 1,
+            "action": "Create ANT Mission",
+            "mission": {
+                "description": "KPA201 to M2015A3",
+                "type": "transport from station to station",
+                "from": [
+                    "KPA201"
+                ],
+                "to": [
+                    "M2015A3"
+                ],
+                "payload": "Default Payload",
+                "priority": "medium"
+            }
+        }
+    ]
+}

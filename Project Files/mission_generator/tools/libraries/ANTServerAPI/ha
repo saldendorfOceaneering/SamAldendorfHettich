@@ -1,0 +1,3 @@
+    def executeExtractAllVehicleRESTRequest(self):
+    def getActiveMissions(self, nrOfMissions):
+    def deleteAlarm(self, addition):
